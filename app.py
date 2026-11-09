@@ -113,7 +113,7 @@ def create_invoice(invoice_num,order_data, directory):
  #it worked but I have no idea what the font error is about 
 
 # INSERT ANSWER FOR QUESTION 5 HERE
-gmail_user = "jay.mvasquez7@gmail.com`
+gmail_user = "jay.mvasquez7@gmail.com"
 gmail_password_path = select_file('Please select the gmail password file')
 gmail_password = open(gmail_password_path).read().
 
