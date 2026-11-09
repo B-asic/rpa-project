@@ -109,7 +109,7 @@ def create_invoice(invoice_num,order_data, directory):
     template = directory + 'MasterInvoice.pdf'
     invoice_file = directory + f'Invoice {invoice_num}.pdf'
 
-    create_pdf(template,invoice_file, order_data
+    create_pdf(template,invoice_file, order_data)
  #it worked but I have no idea what the font error is about 
 
 # INSERT ANSWER FOR QUESTION 5 HERE
